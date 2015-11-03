@@ -7,7 +7,7 @@ public class Link {
     public String bookName;
     public int millionsSold;
 
-    public Link next;
+    public Link next; // reference next link in the linked list
 
 
     public Link(String bookName, int millionsSold) {
