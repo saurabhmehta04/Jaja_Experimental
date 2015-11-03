@@ -78,7 +78,7 @@ public class Node {
 
 
     public static void main(String[] args) {
-//        Node cNode = new Node("C", null); // since this is the last node, so we can create this first
+//        Node cNode = new Node("C", null); // since this is the last node, creating this first
 //        Node bNode = new Node("B", cNode);
 //        Node list = new Node("A", bNode);
         Node list = new Node("A", new Node("B", new Node("C", null))); //c is created first, then b and then a
